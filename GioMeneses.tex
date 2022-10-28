@@ -82,31 +82,28 @@
 
 %-------------------------------------------------------------------------------
 \begin{document}
-
 % Print the header with above personal information
 % Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader[C]
-\begin{sloppypar}
-	% Print the footer with 3 arguments(<left>, <center>, <right>)
-	% Leave any of these blank if they are not needed
-	\makecvfooter
-	{\today}
-	{Gio Meneses~~~·~~~Résumé}
-	{\thepage}
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+{\today}
+{Gio Meneses~~~·~~~Résumé}
+{\thepage}
 
 
-	%-------------------------------------------------------------------------------
-	%	CV/RESUME CONTENT
-	%	Each section is imported separately, open each file in turn to modify content
-	%-------------------------------------------------------------------------------
-	\input{sections/summary.tex}
-	\input{sections/experience.tex}
-	\newpage
-	\input{sections/education.tex}
-	\input{sections/skills.tex}
-	\input{sections/forfun.tex}
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{sections/summary.tex}
+\input{sections/experience.tex}
+\newpage
+\input{sections/education.tex}
+\input{sections/skills.tex}
+\input{sections/forfun.tex}
 
 
-	%-------------------------------------------------------------------------------
-\end{sloppypar}
+%-------------------------------------------------------------------------------
 \end{document}
